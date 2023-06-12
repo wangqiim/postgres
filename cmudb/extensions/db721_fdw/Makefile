@@ -9,7 +9,7 @@
 EXTENSION = db721_fdw
 MODULE_big = db721_fdw
 DATA = db721_fdw--0.0.1.sql
-OBJS = src/dog.o src/db721_fdw_impl.o src/db721_fdw.o
+OBJS = src/dog.o src/db721_reader.o src/db721_fdw_impl.o src/db721_fdw.o
 SHLIB_LINK = -lstdc++
 
 # If PG_CONFIG is not set, try the default NoisePage build folder first, then try PATH.
